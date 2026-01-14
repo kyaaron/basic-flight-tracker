@@ -1,0 +1,33 @@
+* {
+    font-family: Arial;
+}
+h1, #instructions, h2 {
+    text-align: center;
+}
+#button-div {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: rgb(240, 142, 53);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    font-size: 1.3rem;
+}
+button:hover {
+    background-color: rgb(230, 132, 45);
+}
+.flight-info-card {
+    background-color: #b3f1ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    width: 350px;
+    height: 150px;
+    margin: 20px auto;
+    padding: 5px 10px;
+}
