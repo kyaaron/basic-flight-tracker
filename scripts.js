@@ -1,7 +1,17 @@
+/*
+Aviationstack Dashboard: https://aviationstack.com/dashboard
+Aviationstack Documentation: https://docs.apilayer.com/aviationstack/docs/api-documentation
+
+INSTRUCTIONS:
+1. Clone the repository onto your local machine
+2. Create an API key on the Aviationstack API website and place it on line 14
+3. Open index.html in your browser
+*/
+
 const searchButton = document.querySelector("button");
 
 const getFlightData = () => {
-    fetch("https://api.aviationstack.com/v1/flights?access_key=d654dcd0fa36e50d5cc8cf6d184b0d3b")
+    fetch("https://api.aviationstack.com/v1/flights?access_key=INSERT_API_KEY_HERE")
         .then(res => res.json())
         .then(data => {
             const flightArr = data.data;
